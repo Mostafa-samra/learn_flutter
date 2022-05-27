@@ -12,7 +12,9 @@ Widget MyListView() {
   );
   return list;
 }
-
+/*بدﻻ من انى اعمل خواص لكل 
+ListTile
+حاولت اعمل حاجه موحده بحيث تطلب منى متغيرات محدده اكتبها وبالتالى تقلل من الكود */
 listList(Icon1, Icon2, Text1, Text2) {
   Icon1 = Icons;
   Icon2 = Icons;
