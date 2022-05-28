@@ -15,16 +15,21 @@ Widget MyListView() {
 /*بدﻻ من انى اعمل خواص لكل 
 ListTile
 حاولت اعمل حاجه موحده بحيث تطلب منى متغيرات محدده اكتبها وبالتالى تقلل من الكود */
-listList(Icon1, Icon2, Text1, Text2) {
-  Icon1 = Icons;
-  Icon2 = Icons;
-  Text1 = Text("");
-  Text2 = Text("");
+//listList(Icon1, Icon2, Text1, Text2) {
+ // Icon1 = Icons;
+//  Icon2 = Icons;
+ // Text1 = Text("");
+//  Text2 = Text("");
 
-  ListTile(
-    leading: Icon1,
-    title: Text1,
-    subtitle: Text2,
-    trailing: Icon2,
-  );
-}
+ // ListTile(
+ //   leading: Icon1,
+ //   title: Text1,
+ //   subtitle: Text2,
+ //   trailing: Icon2,
+//  );
+//}
+listList(IconData icons1 = Icons.home, 
+required IconData icons2, 
+String text2 = "", 
+required String text2){
+return ListTile();}
