@@ -28,6 +28,8 @@ ListTile
  //   trailing: Icon2,
 //  );
 //}
+
+//تعديل listList لاظهار الايقونه والكتابه ولكن كود مختصر
 listList(IconData icons1 = Icons.home, 
 required IconData icons2, 
 String text2 = "", 
