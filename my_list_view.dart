@@ -32,8 +32,8 @@ ListTile
 //}
 
 //تعديل listList لاظهار الايقونه والكتابه ولكن كود مختصر
-listList(IconData icons1 = Icons.home, 
+listList({IconData icons1 = Icons.home, 
 required IconData icons2, 
 String text2 = "", 
-required String text2){
+required String text2}){
 return ListTile();}
